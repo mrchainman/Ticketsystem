@@ -16,7 +16,6 @@ def process():
     price = request.forms.get('price')
     date = request.forms.get('date')
     code = request.forms.get('code')
-    host = 'localhost'
     database = 'tickets'
     table = 'tickets'
     qr_file = f"qr_codes/{name}_{surname}.png"
@@ -25,6 +24,7 @@ def process():
     passwd_sender = ''
     provider = ''
     # Database Creds
+    host = ''
     user=''
     password=''
     conn = mysql.connector.connect(database=database
