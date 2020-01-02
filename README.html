@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<meta name="date" content="2019-12-31" scheme="YYYY-MM-DD" />
+<meta name="date" content="2020-01-02" scheme="YYYY-MM-DD" />
 <title>Untitled article</title>
 </head>
 <body>
@@ -15,6 +15,15 @@ The generation of the Ticket is done over the Webinterface and an email with the
 The content of the QR code (the name combined with a random string) is stored into a maridb Database.
 The code must be manually scanned and can than be checked, also through the webinterface, by leaving everything else blank
 and just entering the code.</p>
+
+<h3 id="USAGE">USAGE</h3>
+
+<ul>
+<li>Have a mariadb server running</li>
+<li>Enter the needed information in post_routes.py</li>
+<li>The first time, run create_database.py to create the database</li>
+<li>Run main.py</li>
+</ul>
 
 <h3 id="TODO">TODO</h3>
 
