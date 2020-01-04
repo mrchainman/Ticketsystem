@@ -12,5 +12,6 @@ and just entering the code.
 * Run main.py
 
 ### TODO
+* Change create_database.py to use mariadb instead of sqlite
 * Make the webUI visually more appealing
 * Write an android app to scan the qr code and retreive the data from the server
